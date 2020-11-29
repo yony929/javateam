@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins','Nanum Gothic',sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+.section{
+  background: url("images/uni.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.wrapper{
+  padding: 20px 10px;
+  margin : 50px 200px;
+}
+
+.accordion{
+  max-width: 100%;
+  
+}
+
+
+.accordion-item{
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.item-header{
+  padding: 14px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon{
+  width: 28px;
+  height: 28px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.text{
+  color: #888;
+  padding: 0 6px;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-item.active .text{
+  max-height: 600px;
+  transition: .4s linear;
+}
+
+
+.title .center2 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.title .center2 h1{
+	font-size: 100px;
+	color: white;
+	text-shadow: 4px 2px 2px gray;
+	
+	          
+}
+
+
+.button{
+    height: 25px;
+    width: 45px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    background: #d9d9d9;
+    border: 2px solid #d9d9d9;
+    transition: all 0.3s ease;
+    font-family: 'Nanum Gothic';
+    padding: 0px 2px;
+}
+
+
+
+
+.button:hover {
+  cursor:pointer;
+}
+
+
